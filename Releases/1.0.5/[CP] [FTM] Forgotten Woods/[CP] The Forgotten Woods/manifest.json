@@ -1,0 +1,22 @@
+{
+    "Name": "The Forgotten Woods",
+    "Author": "Azathii",
+    "Version": "1.0.5",
+    "Description": "Adds new additional foraging maps to the Secret Woods",
+    "UniqueID": "Azathii.ForgottenWoods",
+    "MinimumApiVersion": "4.0.4",
+    "UpdateKeys": [ "Nexus:32260" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+      {
+       "UniqueID": "DaisyNiko.Tilesheets",
+       "IsRequired": true
+    },
+    {
+       "UniqueID": "datamancer.DynamicMapTiles",
+       "IsRequired": true
+    }
+  ]
+}
