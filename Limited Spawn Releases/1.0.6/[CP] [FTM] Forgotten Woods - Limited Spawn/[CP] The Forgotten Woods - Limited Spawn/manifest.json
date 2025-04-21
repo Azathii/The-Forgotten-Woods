@@ -1,0 +1,22 @@
+{
+    "Name": "The Forgotten Woods - Limited Spawn",
+    "Author": "Azathii",
+    "Version": "1.0.6",
+    "Description": "Alternate version of 'The Forgotten Woods' with limited spawns and NO ancient fruit",
+    "UniqueID": "Azathii.ForgottenWoods.LimitedSpawn",
+    "MinimumApiVersion": "4.0.4",
+    "UpdateKeys": [ "Nexus:32260" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+      {
+       "UniqueID": "DaisyNiko.Tilesheets",
+       "IsRequired": true
+    },
+    {
+       "UniqueID": "datamancer.DynamicMapTiles",
+       "IsRequired": true
+    }
+  ]
+}
