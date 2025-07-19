@@ -1,0 +1,13 @@
+{
+	"Name": "[FTM] The Forgotten Woods - Limited Spawn",
+	"Author": "Azathii",
+	"Version": "1.2.0",
+	"Description": "Alternate version of 'The Forgotten Woods' with limited spawns and NO ancient fruit",
+	"UniqueID": "Azathii.ForgottenWoods.FTM.LimitedSpawns",
+	"MinimumApiVersion": "4.0.4",
+	"UpdateKeys": [ "Nexus:32260" ],
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager",
+		"MinimumVersion": "1.25.0"
+	}
+}
