@@ -1,0 +1,13 @@
+{
+	"Name": "[FTM] The Forgotten Woods",
+	"Author": "Azathii",
+	"Version": "1.3.0",
+	"Description": "Adds forageables, treasures and monsters to The Forgotten Woods maps. Forage spawning rates can be configured in-game via the forage cave controls.",
+	"UniqueID": "Azathii.ForgottenWoods.FTM",
+	"MinimumApiVersion": "4.0.4",
+	"UpdateKeys": [ "Nexus:32260" ],
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager",
+		"MinimumVersion": "1.26.0"
+	}
+}
