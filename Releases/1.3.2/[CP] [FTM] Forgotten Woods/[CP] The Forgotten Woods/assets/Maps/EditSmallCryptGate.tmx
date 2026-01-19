@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="1" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="12">
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="289" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="353" name="z_Azathii_ForgottenWoods2" tilewidth="16" tileheight="16" tilecount="1060" columns="20">
+  <image source="Azathii_ForgottenWoods2.png" width="320" height="848"/>
+  <tile id="207">
+   <animation>
+    <frame tileid="207" duration="100"/>
+    <frame tileid="209" duration="100"/>
+    <frame tileid="211" duration="100"/>
+    <frame tileid="213" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="208">
+   <animation>
+    <frame tileid="208" duration="100"/>
+    <frame tileid="210" duration="100"/>
+    <frame tileid="212" duration="100"/>
+    <frame tileid="214" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="211">
+   <animation>
+    <frame tileid="211" duration="100"/>
+    <frame tileid="213" duration="100"/>
+    <frame tileid="207" duration="100"/>
+    <frame tileid="209" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="212">
+   <animation>
+    <frame tileid="212" duration="100"/>
+    <frame tileid="214" duration="100"/>
+    <frame tileid="208" duration="100"/>
+    <frame tileid="210" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="227">
+   <animation>
+    <frame tileid="227" duration="100"/>
+    <frame tileid="229" duration="100"/>
+    <frame tileid="231" duration="100"/>
+    <frame tileid="233" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="228">
+   <animation>
+    <frame tileid="228" duration="100"/>
+    <frame tileid="230" duration="100"/>
+    <frame tileid="232" duration="100"/>
+    <frame tileid="234" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="231">
+   <animation>
+    <frame tileid="231" duration="100"/>
+    <frame tileid="233" duration="100"/>
+    <frame tileid="227" duration="100"/>
+    <frame tileid="229" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="232">
+   <animation>
+    <frame tileid="232" duration="100"/>
+    <frame tileid="234" duration="100"/>
+    <frame tileid="228" duration="100"/>
+    <frame tileid="230" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="2" opacity="0.98">
+  <data encoding="csv">
+591,
+571
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="1" height="2">
+  <data encoding="csv">
+0,
+0
+</data>
+ </layer>
+ <layer id="11" name="AlwaysFront" width="1" height="2">
+  <data encoding="csv">
+702,
+0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="22" name="AlwaysFront"/>
+</map>
