@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="3" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="34" nextobjectid="5">
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="289" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="353" name="z_Azathii_ForgottenWoods2" tilewidth="16" tileheight="16" tilecount="1060" columns="20">
+  <image source="Azathii_ForgottenWoods2.png" width="320" height="848"/>
+  <tile id="913">
+   <animation>
+    <frame tileid="913" duration="150"/>
+    <frame tileid="916" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="914">
+   <animation>
+    <frame tileid="914" duration="150"/>
+    <frame tileid="917" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="915">
+   <animation>
+    <frame tileid="915" duration="150"/>
+    <frame tileid="918" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="933">
+   <animation>
+    <frame tileid="933" duration="150"/>
+    <frame tileid="936" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="934">
+   <animation>
+    <frame tileid="934" duration="150"/>
+    <frame tileid="937" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="935">
+   <animation>
+    <frame tileid="935" duration="150"/>
+    <frame tileid="938" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="9" name="Buildings2" width="3" height="2">
+  <data encoding="csv">
+1266,1267,1268,
+1286,1287,1288
+</data>
+ </layer>
+ <objectgroup id="24" name="Buildings2"/>
+</map>

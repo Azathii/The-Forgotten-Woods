@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="4" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="26" nextobjectid="6">
+ <properties>
+  <property name="AmbientLight" value="90 90 35"/>
+  <property name="Warp" value="26 10 Azathii.ForgottenWoods_ForgottenHill 65 50"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="289" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="353" name="z_Azathii_ForgottenWoods2" tilewidth="16" tileheight="16" tilecount="1060" columns="20">
+  <image source="Azathii_ForgottenWoods2.png" width="320" height="848"/>
+ </tileset>
+ <tileset firstgid="1413" name="z_Azathii_ForgottenWoods" tilewidth="16" tileheight="16" tilecount="812" columns="14">
+  <image source="Azathii_ForgottenWoods.png" width="224" height="928"/>
+ </tileset>
+ <layer id="1" name="Back" width="4" height="4" opacity="0.98">
+  <data encoding="csv">
+572,571,572,571,
+592,591,592,591,
+572,571,572,571,
+592,591,592,591
+</data>
+ </layer>
+ <layer id="14" name="Back2" width="4" height="4">
+  <data encoding="csv">
+0,1146,1146,1146,
+1146,1146,1146,1146,
+1146,1152,523,1162,
+542,1172,1162,1167
+</data>
+ </layer>
+ <layer id="15" name="Back3" width="4" height="4">
+  <data encoding="csv">
+0,1115,1115,1115,
+1115,1117,1135,1135,
+1117,1136,405,406,
+1136,0,0,0
+</data>
+ </layer>
+ <layer id="20" name="Back4" width="4" height="4">
+  <data encoding="csv">
+0,2147484174,505,502,
+0,2147484194,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="4" height="4">
+  <data encoding="csv">
+2147484154,409,407,408,
+2147484174,429,427,428,
+2147484194,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="Buildins2" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="Buildings3" width="4" height="4">
+  <data encoding="csv">
+1112,0,0,0,
+1132,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="23" name="Back2"/>
+ <objectgroup id="24" name="Back3"/>
+ <objectgroup id="25" name="Back4"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="2" name="TileData" x="32" y="0" width="32" height="32">
+   <properties>
+    <property name="Action" value="Message msg.SmallCrypt5"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="16" y="0" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message msg.SmallCrypt4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="21" name="Buildings2"/>
+ <objectgroup id="22" name="Buildings3"/>
+</map>
